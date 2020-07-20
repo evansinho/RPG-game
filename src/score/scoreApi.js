@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 
 const initGame = async () => {
   const title = JSON.stringify({
-    name: 'Forest Run',
+    name: 'Waste-Land',
   });
   const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
   const data = {
