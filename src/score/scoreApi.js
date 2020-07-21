@@ -27,7 +27,7 @@ const postScore = async (name, score) => {
     user: name,
     score,
   });
-  const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/bvAMpQpTxVBlXQtGv2YY/scores/';
+  const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/';
   const data = {
     method: 'POST',
     headers: {
@@ -55,7 +55,7 @@ const sortPlayers = (input) => {
 };
 
 const getScores = async () => {
-  const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/bvAMpQpTxVBlXQtGv2YY/scores/';
+  const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/';
   const data = {
     method: 'GET',
     headers: {
