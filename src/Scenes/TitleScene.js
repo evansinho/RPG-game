@@ -12,8 +12,6 @@ export default class TitleScene extends Phaser.Scene {
 
   create() {
     this.add.image(400, 300, 'forest-bg');
-    this.add.image(400, 90, 'rpg-logo');
-
     // Game
     this.gameButton = new Button(this, config.width / 2, config.height / 2 - 70, 'button1', 'button2', 'Play', 'WorldScene');
     // Options
