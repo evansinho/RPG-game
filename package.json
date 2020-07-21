@@ -4,6 +4,7 @@
   "description": "JavaScript Capstone Project - Implementation of a Turn-Based RPG Game built with the Phaser 3 framework.",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "build": "webpack --config webpack/prod.js ",
     "start": "webpack-dev-server --config webpack/base.js --open"
   },
@@ -26,6 +27,7 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
+    "jest": "^25.2.4",
     "stylelint": "^13.3.3",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-config-standard": "^20.0.0",
@@ -41,6 +43,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.8.7",
     "node-fetch": "^2.6.0",
     "phaser": "^3.22.0",
     "regenerator-runtime": "^0.13.5"

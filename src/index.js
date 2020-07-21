@@ -1,5 +1,6 @@
 /* eslint-disable import/no-cycle */
 /* eslint-disable no-undef */
+import '@babel/polyfill';
 import 'phaser';
 import config from './config/config';
 import Music from './object/music';
