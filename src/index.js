@@ -11,6 +11,7 @@ import CreditsScene from './Scenes/CreditsScene';
 import VictoryScene from './Scenes/VictoryScene';
 import LeaderboardScene from './Scenes/LeaderboardScene';
 import WorldScene from './Scenes/WorldScene';
+import GameOverScene from './Scenes/GameOverScene';
 import { setUser } from './user/user';
 import './user/dom';
 
@@ -26,6 +27,7 @@ class Game extends Phaser.Game {
     this.scene.add('Credits', CreditsScene);
     this.scene.add('Victory', VictoryScene);
     this.scene.add('Leaderboard', LeaderboardScene);
+    this.scene.add('GameOver', GameOverScene);
     this.scene.add('WorldScene', WorldScene);
     this.scene.start('Boot');
   }
