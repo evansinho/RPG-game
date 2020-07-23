@@ -206,55 +206,55 @@ All of the sprites, backgrounds, buttons and the background music can be found o
 **Home Screen**
 
 <p align="center">
-  <img src="./assets/screenshots/forest-run-home.png">
+  <img src="./assets/screenshots/home-screen.PNG">
 </p>
 
 **Welcome Scene**
 
 <p align="center">
-  <img src="./assets/screenshots/welcome-scene.png">
+  <img src="./src/assets/screenshots/welcome-scene.PNG">
 </p>
 
 **Options Scene**
 
 <p align="center">
-  <img src="./assets/screenshots/options-scene.png">
+  <img src="./src/assets/screenshots/options-scene.PNG">
 </p>
 
 **Credits Scene**
 
 <p align="center">
-  <img src="./assets/screenshots/credits-scene.png">
+  <img src="./src/assets/screenshots/credits-scene.PNG">
 </p>
 
 **Leaderboard Scene**
 
 <p align="center">
-  <img src="./assets/screenshots/leaderboard-scene.png">
+  <img src="./src/assets/screenshots/leaderboard-scene.PNG">
 </p>
 
 **Play Scene**
 
 <p align="center">
-  <img src="./assets/screenshots/play-scene.png">
+  <img src="./src/assets/screenshots/play-scene.PNG">
 </p>
 
 **Battle Scene**
 
 <p align="center">
-  <img src="./assets/screenshots/battle-scene.png">
+  <img src="./src/assets/screenshots/battle-scene.PNG">
 </p>
 
 **Victory Scene**
 
 <p align="center">
-  <img src="./assets/screenshots/victory-scene.png">
+  <img src="./src/assets/screenshots/victory-scene.PNG">
 </p>
 
 **Game Over Scene**
 
 <p align="center">
-  <img src="./assets/screenshots/game-over-scene.png">
+  <img src="./src/assets/screenshots/game-over-scene.PNG">
 </p>
 
 ## Technologies used
