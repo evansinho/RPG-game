@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "webpack --config webpack/prod.js ",
-    "start": "webpack-dev-server --config webpack/base.js --open"
+    "start": "npm run build && webpack-dev-server --host=0.0.0.0 --port=$PORT --disable-host-check"
   },
   "repository": {
     "type": "git",
@@ -51,5 +51,6 @@
     "node-fetch": "^2.6.0",
     "phaser": "^3.22.0",
     "regenerator-runtime": "^0.13.5"
-  }
+  },
+  "heroku-run-build-script": true
 }
