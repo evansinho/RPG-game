@@ -2,6 +2,7 @@
 
 import startGame from '../index';
 import { checkForm, noInputError, clearDOM } from './error';
+import '../style.css';
 
 const inputWrap = document.createElement('div');
 const text = document.createElement('div');

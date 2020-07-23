@@ -11,18 +11,14 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
+        include: path.resolve(__dirname, 'src/'),
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
+          options: {
+            presets: ['env'],
+          },
         },
-      },
-      {
-        test: [/\.vert$/, /\.frag$/],
-        use: 'raw-loader',
-      },
-      {
-        test: /\.(gif|png|jpe?g|svg|xml)$/i,
-        use: 'file-loader',
       },
       {
         test: /\.css$/,
@@ -30,6 +26,14 @@ module.exports = {
           'style-loader',
           'css-loader',
         ],
+      },
+      {
+        test: [/\.vert$/, /\.frag$/],
+        use: 'raw-loader',
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: 'file-loader',
       },
     ],
   },
