@@ -16,6 +16,9 @@
     "eol-last": "off",
     "arrow-parens": "off"
   },
+  "settings": {
+    "import/resolver": "webpack"
+  },
   "ignorePatterns": [
     "dist/",
     "build/"

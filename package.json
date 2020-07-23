@@ -44,6 +44,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
+    "eslint-import-resolver-webpack": "^0.12.2",
     "node-fetch": "^2.6.0",
     "phaser": "^3.22.0",
     "regenerator-runtime": "^0.13.5"
