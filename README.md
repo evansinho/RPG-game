@@ -1,7 +1,7 @@
 # JavaScript Capstone Project - RPG Game
 
 <h1 align="center">
-  Forest Run
+  Waste-Land
 </h1> 
 
 > Final project in the Microverse JavaScript Curriculum
@@ -206,7 +206,7 @@ All of the sprites, backgrounds, buttons and the background music can be found o
 **Home Screen**
 
 <p align="center">
-  <img src="./assets/screenshots/home-screen.PNG">
+  <img src="./src/assets/screenshots/home-screen.PNG">
 </p>
 
 **Welcome Scene**
