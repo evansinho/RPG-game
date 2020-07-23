@@ -19,7 +19,6 @@ export default class GameOverScene extends Phaser.Scene {
 
   create() {
     this.add.image(400, 300, 'forest-bg');
-    this.add.image(400, 150, 'rpg-logo');
 
     this.title = this.add.text(0, 0, 'Game Over', { fontSize: '40px', fontStyle: 'bold', fill: '#fff' });
     this.score = this.add.text(0, 0, `Score: ${getScore()}`, { fontSize: '30px', fill: '#fff' });

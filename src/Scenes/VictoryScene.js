@@ -15,8 +15,6 @@ export default class VictoryScene extends Phaser.Scene {
 
   create() {
     this.add.image(400, 300, 'forest-bg');
-    this.add.image(400, 150, 'rpg-logo');
-    // this.scene.start('WorldScene');
 
     this.title = this.add.text(0, 0, 'Victory', { fontSize: '40px', fontStyle: 'bold', fill: '#fff' });
     this.messageText = this.add.text(
