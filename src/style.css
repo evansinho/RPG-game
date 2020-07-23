@@ -1,6 +1,6 @@
 body {
-  background: rgb(174,238,196);
-  background: radial-gradient(circle, rgba(174,238,196,1) 0%, rgb(185, 199, 181) 100%);
+  background: rgb(174, 238, 196);
+  background: radial-gradient(circle, rgba(174, 238, 196, 1) 0%, rgb(185, 199, 181) 100%);
   height: 100vh;
   display: flex;
   flex-direction: column;
